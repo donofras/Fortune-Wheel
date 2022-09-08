@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		93F7475328C8CC3000C626F3 /* Fortune_WheelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7475228C8CC3000C626F3 /* Fortune_WheelApp.swift */; };
-		93F7475528C8CC3000C626F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7475428C8CC3000C626F3 /* ContentView.swift */; };
 		93F7475728C8CC3200C626F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7475628C8CC3200C626F3 /* Assets.xcassets */; };
 		93F7475A28C8CC3200C626F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7475928C8CC3200C626F3 /* Preview Assets.xcassets */; };
+		93F7476128C8D18800C626F3 /* SpinWheelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7476028C8D18800C626F3 /* SpinWheelCell.swift */; };
+		93F7476328C8D1A900C626F3 /* SpinWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7476228C8D1A900C626F3 /* SpinWheelView.swift */; };
+		93F7476528C8D1CA00C626F3 /* FortuneWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7476428C8D1CA00C626F3 /* FortuneWheel.swift */; };
+		93F7476728C8D1E300C626F3 /* FortuneWheelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7476628C8D1E300C626F3 /* FortuneWheelViewModel.swift */; };
+		93F7476B28C9D8F800C626F3 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7476A28C9D8F800C626F3 /* Color+Extensions.swift */; };
+		93F7476D28C9DB5B00C626F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7476C28C9DB5B00C626F3 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93F7474F28C8CC3000C626F3 /* Fortune Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F7475228C8CC3000C626F3 /* Fortune_WheelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune_WheelApp.swift; sourceTree = "<group>"; };
-		93F7475428C8CC3000C626F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93F7475628C8CC3200C626F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F7475928C8CC3200C626F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93F7476028C8D18800C626F3 /* SpinWheelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelCell.swift; sourceTree = "<group>"; };
+		93F7476228C8D1A900C626F3 /* SpinWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelView.swift; sourceTree = "<group>"; };
+		93F7476428C8D1CA00C626F3 /* FortuneWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel.swift; sourceTree = "<group>"; };
+		93F7476628C8D1E300C626F3 /* FortuneWheelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelViewModel.swift; sourceTree = "<group>"; };
+		93F7476A28C9D8F800C626F3 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		93F7476C28C9DB5B00C626F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				93F7475228C8CC3000C626F3 /* Fortune_WheelApp.swift */,
-				93F7475428C8CC3000C626F3 /* ContentView.swift */,
+				93F7476C28C9DB5B00C626F3 /* ContentView.swift */,
+				93F7476028C8D18800C626F3 /* SpinWheelCell.swift */,
+				93F7476228C8D1A900C626F3 /* SpinWheelView.swift */,
+				93F7476428C8D1CA00C626F3 /* FortuneWheel.swift */,
+				93F7476A28C9D8F800C626F3 /* Color+Extensions.swift */,
+				93F7476628C8D1E300C626F3 /* FortuneWheelViewModel.swift */,
 				93F7475628C8CC3200C626F3 /* Assets.xcassets */,
 				93F7475828C8CC3200C626F3 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F7475528C8CC3000C626F3 /* ContentView.swift in Sources */,
+				93F7476328C8D1A900C626F3 /* SpinWheelView.swift in Sources */,
 				93F7475328C8CC3000C626F3 /* Fortune_WheelApp.swift in Sources */,
+				93F7476D28C9DB5B00C626F3 /* ContentView.swift in Sources */,
+				93F7476B28C9D8F800C626F3 /* Color+Extensions.swift in Sources */,
+				93F7476528C8D1CA00C626F3 /* FortuneWheel.swift in Sources */,
+				93F7476128C8D18800C626F3 /* SpinWheelCell.swift in Sources */,
+				93F7476728C8D1E300C626F3 /* FortuneWheelViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
